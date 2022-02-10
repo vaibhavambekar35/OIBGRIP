@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+.first{
+    display: block;
+    justify-content: center;
+    /* position:fixed; */
+    /* background: crimson; */
+    width:100%;
+    padding: 30px 0;
+    font-family: 'Ubantu',sans-serif;
+    transition:all 0.3 ease;
+    z-index: 999;
+   align-items: center;
+   text-align: center;
+    background: rgb(9, 151, 161);
+    margin-bottom: 10px;
+}
+.name{
+    font-size: 25px;
+    font-weight:500;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:#111;
+}
+.year{
+    font-weight: 300;
+    color: #fff;
+    margin-top: 15px;
+}
+.container{
+    display: block;
+    background: #111;
+    margin-top: 10px;
+}
+.describe{
+    margin-left:0;
+    text-align: left;
+    background: white;
+    padding:10px 10px;
+}
+.vdo{
+    margin-top: 15px;
+    margin-left: 30%;
+    padding: 10px 5px;
+    background:#111;
+    align-items: center;
+    justify-content: center;
+}
+.third{
+    margin-top: 20px;
+}
+img{
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 1px solid red;
+}
+.fourth,.fifth{
+    display:block;
+    width:100%;
+ 
+    color: white;
+    background:#111;
+   
+}
+#sec{
+    width: 50%;
+    margin-left: 30%;
+    padding:10px;
+    margin-bottom:0;
+    border-bottom: #fff;
+}
+#bio{
+    margin-left: 30%;
+    margin-top: 15px;
+    padding:10px;
+}
+hr{
+    margin-top: 15px;
+    width:55%;
+    color:white;
+    border-bottom:#111;
+    border-left:#111;
+    border-right:#111;
+    border-top:2px solid white;
+    margin-left: 27%;
+    padding:10px;
+    margin-bottom:0;
+}
+.copyr{
+    text-align: center;
+   
+}
+span{
+    color: crimson;
+}
